@@ -1,0 +1,50 @@
+ANOTAÇÕES JAVASCRIPT
+
+sinal '=' quer dizer RECEBE.
+ex: vaga a1 = carro1
+
+No javascript utilizamos a palavra VAR para criar variaveis dentro da memória da maquina.
+
+* Os indetificadores de variaveis só podem começar com letras, $ e _:
+
+Não podem conter espaços, não podem ser palavras reservadas (alert, var, function)
+
+Maiusculas e minusculas fazem diferença 
+
+* DATA TYPES:
+
+Typeof: 
+
+number - 1, 2, -5, 15.6, 8.5, -7.6 (infinity: NaN:)
+string - 'javascript', "Google", ´Matheus´
+boolean - true, false
+null -
+undefined - 
+object - (Array)
+function - 
+
+*CONVERSÕES (string > numero, por exemplo)
+
+Number.parseInt(n) = para numeros inteiros
+Number.paseFloat(n) = para numeros reais
+Number(n) = é a maneira mais recente do ECMAscript, o vscode se vira para identificar
+
+String(n) ou n.tostring
+
+* TEMPLATE String
+${} : Placeholder - no windows utilizar acentos agudos para envelopar a string e não crase
+
+* n.toFixed(n) para converter numeros
+var n = 1545.2
+undefined
+> n
+1545.2
+> n.toFixed(2) 
+'1545.20'
+> n.toFixed(4).replace('.', ',')
+'1545,2000'
+ n.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) converte para a moeda escolhida
+'US$ 1.545,20'
+> n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) 
+'R$ 1.545,20'
+
