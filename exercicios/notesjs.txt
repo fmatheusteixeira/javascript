@@ -48,3 +48,44 @@ undefined
 > n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) 
 'R$ 1.545,20'
 
+* Operadores
+
+Aritmeticos: + - * / % **
+
+var n = 2
+n = n + 5 / n += 5 = 7 (+=, -+, %=...)
+
+Relacionais: > < >= <= == != (valor booleano)
+ex: 5 > 2 ? true
+7 < 4 ? False
+5 == 5 ? true
+4 != 4 ? False 
+
+Lógicos: ! negação, && conjunção, || disjunção
+
+Precedencia:
+() * / ...
+> < >= ...
+!
+&&
+||
+
+Ternário: 
+? : 
+EX: 
+> var media = 7
+undefined
+> var nota = media % 2 == 3 ? 'APROVADO' : 'REPROVADO'
+undefined
+> nota
+'REPROVADO'
+> media += 2
+9
+> nota
+'REPROVADO'
+> nota = media + 1 == 10 ? 'APROVADO' : 'REPROVADO'
+'APROVADO'
+>
+
+DOM - Document Object Model
+
