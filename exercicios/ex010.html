@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificando Nacionalidade</title>
+</head>
+<body>
+    <h1>Qual a sua Nacionalidade?</h1>
+    <label for="país">Qual o seu país de origem? </label>
+    <input type="text" name="país" id="país">
+
+    <input type="submit" value="Verificar" onclick="clicar()">
+
+    <div id="res">Resultado</div>
+
+    <script>
+        function clicar() {
+
+        var p = document.getElementById('país').value
+        var res = document.getElementById('res')
+        
+
+        res.innerHTML= `Nascendo em ${p}`       
+        if (p == 'Brasil') {
+            res.innerHTML = `Nascendo em ${p}, você é brasileiro!`
+        }
+        else {
+           res.innerHTML= `Nascendo em ${p}, você é estrangeiro!`
+        }
+    }
+    </script>
+</body>
+</html>
