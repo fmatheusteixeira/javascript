@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    
+}
+
+main {
+    width: 100vw;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+div#res {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.426);
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+
+div#res img {
+    width: 300px;
+    margin: 30px auto;
+    
+}
+
+div#hour {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer h2 {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 100;
+}
