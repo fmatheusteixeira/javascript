@@ -21,7 +21,7 @@ function horaDoDia() {
         imagem1.style.display = 'none'
         imagem2.style.display = 'block'
         imagem3.style.display = 'none'
-        document.body.style.backgroundColor = 'rgba(238, 138, 44, 0.603);'
+        document.body.style.backgroundColor = 'orangered'
         window.alert('BOA TARDE!')
     }
     else {
