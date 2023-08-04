@@ -89,3 +89,4 @@ undefined
 
 DOM - Document Object Model
 
+ARRAY/VETOR/VARIAVEL COMPOSTA = É uma variavel com varios elementos, cada elemento é composto por um valor e uma chave de identificação
